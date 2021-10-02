@@ -1,0 +1,10 @@
+.card-image {
+  position: absolute;
+  top: -60%;
+  left: 0;
+  transform: translateX(-20%);
+  /* left: -50%; */
+}
+.about {
+  border-bottom: 10px solid #ff7ea2;
+}
