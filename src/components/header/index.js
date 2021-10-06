@@ -48,8 +48,14 @@ const Index = () => {
               <ul className="flex items-center ml-10">
                 <SocialItem link="#" image={Youtube} />
                 <SocialItem link="#" image={Instagram} />
-                <SocialItem link="#" image={Discord} />
-                <SocialItem link="#" image={Twitter} />
+                <SocialItem
+                  link="https://discord.gg/hypeyetisociety"
+                  image={Discord}
+                />
+                <SocialItem
+                  link="https://twitter.com/hypeyetisociety?s=21"
+                  image={Twitter}
+                />
               </ul>
             </div>
           </div>

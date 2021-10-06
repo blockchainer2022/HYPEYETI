@@ -30,8 +30,16 @@ const HeroSection = () => {
                 Are you ready for the hunt?
               </p>
               <div className="flex justify-center items-center   md:w-96 md:mx-auto mt-10">
-                <Button text="Twitter" icon={Twitter} />
-                <Button text="Discord" icon={Discord} />
+                <Button
+                  text="Twitter"
+                  icon={Twitter}
+                  link="https://twitter.com/hypeyetisociety?s=21"
+                />
+                <Button
+                  text="Discord"
+                  icon={Discord}
+                  link="https://discord.gg/hypeyetisociety"
+                />
               </div>
             </div>
           </div>
