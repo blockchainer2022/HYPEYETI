@@ -41,3 +41,21 @@
 html {
   scroll-behavior: smooth;
 }
+
+.click-to-top {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  visibility: hidden;
+  z-index: 199999;
+  background-color: #ff7ea2;
+}
+.click-to-top.show {
+  /* display: block; */
+  visibility: visible;
+}
