@@ -46,8 +46,10 @@ const Index = () => {
                 <MenuItem link={"#faq"} text="FAQs" />
               </ul>
               <ul className="flex items-center ml-10">
-                <SocialItem link="#" image={Youtube} />
-                <SocialItem link="#" image={Instagram} />
+                <SocialItem
+                  link="https://instagram.com/hypeyetisociety?utm_medium=copy_link"
+                  image={Instagram}
+                />
                 <SocialItem
                   link="https://discord.gg/hypeyetisociety"
                   image={Discord}
