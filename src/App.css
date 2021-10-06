@@ -49,7 +49,7 @@ html {
   align-items: center;
   justify-content: center;
   position: fixed;
-  bottom: 100px;
+  bottom: 40px;
   right: 20px;
   visibility: hidden;
   z-index: 199999;
