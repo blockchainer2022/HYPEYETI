@@ -8,6 +8,7 @@ import Youtube from "../../assets/images/youtube2.svg";
 import Instagram from "../../assets/images/instagram2.svg";
 import Twitter from "../../assets/images/twitter2.svg";
 import Discord from "../../assets/images/tiktok.svg";
+import Discord2 from "../../assets/images/discord2.svg";
 
 import "./style.css";
 const Index = () => {
@@ -43,48 +44,23 @@ const Index = () => {
               text="Lead Developer"
               title="Tech Yeti"
               img={CardImage3}
+              isTiktok={false}
+              isYoutube={false}
+              isInsta={false}
+              isTwitter={false}
             />
           </div>
           <div className="md:w-1/2 lg:w-1/4 md:px-2">
-            <CardMobile text="Adviser" title="Southern Yeti" img={CardImage4} />
+            <CardMobile
+              text="Adviser"
+              title="Southern Yeti"
+              img={CardImage4}
+              isTiktok={false}
+              isYoutube={false}
+              isInsta={false}
+              twitter="https://twitter.com/oldschool711"
+            />
           </div>
-          {/* <Card text="Bobby Solez Photo, Bio, Areas of Interest/Expertise" /> */}
-          {/* <div className="md:w-1/2 md:px-2">
-            <CardMobile
-              img={CardImage2}
-              title="AllenOwnz"
-              text="AllenOwnz Photo, Bio, Areas of Interest/Expertise "
-            />
-            {/* <Card
-              img={CardImage2}
-              title="AllenOwnz"
-              text="AllenOwnz Photo, Bio, Areas of Interest/Expertise "
-            /> 
-          </div> */}
-          {/* <div className="md:w-1/2 md:px-8 md:mt-20">
-            <CardMobile
-              img={CardImage3}
-              title="Tech Yeti "
-              text="Tech Yeti Photo, Bio, Areas of  Lead Developer "
-            />
-            <Card
-              img={CardImage3}
-              title="Tech Yeti "
-              text="Tech Yeti Photo, Bio, Areas of  Lead Developer"
-            />
-          </div> */}
-          {/* <div className="md:w-1/2 md:px-8  md:mt-20">
-            <CardMobile
-              img={CardImage4}
-              title="Southern Yeti "
-              text="Southern Yeti,  Photo, Bio, Areas of  Adviser "
-            />
-            <Card
-              img={CardImage4}
-              title="Southern Yeti "
-              text="Southern Yeti , Bio, Areas of  Adviser"
-            />
-          </div> */}
         </div>
       </div>
     </section>
@@ -104,54 +80,84 @@ const CardMobile = ({
   youtube = "#",
   twitter = "#",
   tiktok = "#",
+  discord = "#",
+  isDiscord = false,
+  isTwitter = true,
+  isTiktok = true,
+  isYoutube = true,
+  isInsta = true,
+  // isDiscord = false,
 }) => (
-  <div className="p-4 bg-secondary rounded-xl  text-center my-6 ">
+  <div
+    className="p-4 bg-secondary rounded-xl  text-center my-6 "
+    style={{ minHeight: 270 }}
+  >
     <div className="w-28 mx-auto mb-6">
       <img src={img} alt="" />
     </div>
     <h5 className="text-primary text-2xl mt-4 font-bold">{title}</h5>
     <p className="text-black font-serif text-sm mb-4">{text}</p>
     <ul className="flex justify-center">
-      <li>
-        <a
-          className="inline-block mr-2"
-          href={youtube}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img className="w-6" src={Youtube} alt="youtube" />
-        </a>
-      </li>
-      <li>
-        <a
-          className="inline-block mr-2"
-          href={insta}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img className="w-6" src={Instagram} alt="Instagram" />
-        </a>
-      </li>
-      <li>
-        <a
-          className="inline-block mr-2"
-          href={twitter}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img className="w-6" src={Twitter} alt="twitter" />
-        </a>
-      </li>
-      <li>
-        <a
-          className="inline-block mr-2"
-          href={tiktok}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img className="w-6" src={Discord} alt="discord" />
-        </a>
-      </li>
+      {isYoutube ? (
+        <li>
+          <a
+            className="inline-block mr-2"
+            href={youtube}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="w-6" src={Youtube} alt="youtube" />
+          </a>
+        </li>
+      ) : null}
+      {isInsta ? (
+        <li>
+          <a
+            className="inline-block mr-2"
+            href={insta}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="w-6" src={Instagram} alt="Instagram" />
+          </a>
+        </li>
+      ) : null}
+      {isTwitter ? (
+        <li>
+          <a
+            className="inline-block mr-2"
+            href={twitter}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="w-6" src={Twitter} alt="twitter" />
+          </a>
+        </li>
+      ) : null}
+      {isTiktok ? (
+        <li>
+          <a
+            className="inline-block mr-2"
+            href={tiktok}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="w-6" src={Discord} alt="discord" />
+          </a>
+        </li>
+      ) : null}
+      {isDiscord ? (
+        <li>
+          <a
+            className="inline-block mr-2"
+            href={discord}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="w-6" src={Discord2} alt="discord" />
+          </a>
+        </li>
+      ) : null}
     </ul>
   </div>
 );
