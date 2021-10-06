@@ -12,9 +12,6 @@ const Index = () => {
   return (
     <section className="py-24 bg-secondary" id="arts">
       <div className="container">
-        <h2 className="text-3xl capitalize text-center font-bold text-primary mb-20">
-          Some of Amazing Arts
-        </h2>
         <div className="flex flex-wrap">
           <Wrapper />
           <Wrapper image={Gallary2} />

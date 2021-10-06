@@ -2,33 +2,48 @@ import React from "react";
 import CardImage2 from "../../assets/images/qImage.png";
 const Index = () => {
   return (
-    <section className="py-24 text-center md:text-left">
+    <section className="py-24 text-center md:text-left" id="about">
       <div className="container">
-        <div className="md:flex items-center md:flex-row-reverse">
-          <div className="md:w-1/2">
-            <div className="mb-20 md:w-full">
+        <div className="lg:flex items-center lg:flex-row-reverse">
+          <div className="lg:w-1/2">
+            <div className="mb-20 lg:w-full ">
               <img
                 src={CardImage2}
                 alt=""
                 // style={{ maxWidth: "300px", width: "100%" }}
-                className="mx-auto max-w-xs md:max-w-none md:w-3/4 xl:w-auto"
+                className=" mx-auto sm:max-w-xs lg:max-w-none lg:w-3/4 xl:w-auto max-w-full"
               />
             </div>
           </div>
-          <div className="md:w-1/2">
-            <h2 className="text-3xl capitalize  font-bold">
-              What is Hypeyetisociety ?
+          <div className="lg:w-1/2">
+            <h2 className="text-4xl capitalize  font-bold">
+              What is the Hype Yeti Society ?
             </h2>
-            <p className="font-serif text-sm mt-8 leading-relaxed">
-              Hypeyetisociety is a collection of 8888 randomly generated from
-              over 350 carefully designed assets.The digital collectibles are
-              established within the Ethereum Blockchain as ERC-721 tokens,
-              which enables users to mint, collect, and trade them. Unpack a
-              Hypeyetisociety with just 0.05 ETH, UNTIL PRE-SALE LASTS!! The
-              Minimum Floor price will increase after that. The Pandas are an
-              output of a beautiful and rare combination of many properties and
-              accessories never seen before on any other collectibles. They are
-              cool, authentic, and distinct.{" "}
+            <p className="font-serif font-light mt-8 leading-relaxed">
+              The Hype Yeti Society is a community of people with a vision - a
+              collection of creative minds, action-takers, & innovative
+              individuals.
+            </p>
+            <p className="font-serif mt-8 leading-relaxed">
+              As it’s foundation, a digital NFT collection exists, comprised of
+              8,888 uniquely designed “Yeti’s” hiding and being hunted on the
+              Ethereum Blockchain as ERC-721 tokens - enabling users to mint,
+              collect, and trade.
+            </p>
+            <p className="font-serif mt-8 leading-relaxed">
+              The “Yeti” - otherwise known as the “Abominable Snowman,” is a
+              mythical beast said to stalk the Himalayas. It’s physical
+              existence has been debated and disputed for many years, along with
+              it’s imaginable appearance.
+            </p>
+            <p className="font-serif mt-8 leading-relaxed">
+              It has appeared in tales told on both sides of the mountains, in
+              India, Bhutan, Tibet and Nepal, but features most strongly in the
+              legends of the Sherpa, the communities that live at an average
+              altitude of 12,000ft in eastern Nepal. The creature is said to
+              live up high in the eternal snows and be bigger than a human, with
+              long hair covering its entire body. It walks upright on two bare
+              feet.
             </p>
           </div>
         </div>

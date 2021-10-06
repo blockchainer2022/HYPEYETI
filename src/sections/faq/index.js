@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from "react";
 
 const accordianData = [
@@ -29,23 +31,21 @@ const accordianData = [
 ];
 
 const Index = () => {
-  const [clicked, setClicked] = useState(0);
+  // const [clicked, setClicked] = useState(0);
 
-  const toggle = (index) => {
-    if (clicked === index) {
-      return setClicked(null);
-    }
-    setClicked(index);
-  };
+  // const toggle = (index) => {
+  //   if (clicked === index) {
+  //     return setClicked(null);
+  //   }
+  //   setClicked(index);
+  // };
 
   return (
     <section className="py-16 bg-secondary text-primary" id="faq">
       <div className="container">
-        <h2 className="text-3xl capitalize text-center font-bold mb-14">
-          FAQs
-        </h2>
-        <div className="">
-          {accordianData.map((v, i) => (
+        <h2 className="text-3xl capitalize text-center font-bold mb-8">FAQs</h2>
+        <div className="text-center text-black max-w-2xl w-full mx-auto font-serif">
+          {/* {accordianData.map((v, i) => (
             <div
               key={i}
               className=" border-2 border-primary border-sloid my-4  p-4 rounded-xl"
@@ -70,7 +70,13 @@ const Index = () => {
                 </p>
               </div>
             </div>
-          ))}
+          ))} */}
+          <p>
+            Join our Discord & Follow us on Twitter for updates. Please feel
+            free to message us with questions on Discord or Twitter All Hype
+            Yeti purchases will be made at
+          </p>
+          <a href="https://hypeyetisociety.io">https://hypeyetisociety.io</a>
         </div>
       </div>
     </section>

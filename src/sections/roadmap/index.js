@@ -1,22 +1,26 @@
 import React from "react";
 import "./style.css";
 const data = {
-  first: "1. Build of Amazing Art",
-  second: "2. Start Social Medias",
-  third: "3. Collaborations with Top NFT Projects for Giveaways",
-  fourth: "4. Meme Contest",
-  fifth: "5. Whitelist Presale",
-  sixth: "6. Public Mint – 100 Sell out",
-  seventh: "7. Revel of Yeti’s After 24 Hours of Launch",
-  eighth: "8. Start Development of Yeti Hunt AR game",
+  first: "Development of Hype Yeti",
+  second: "Social Community & Brand Buidling  ",
+  third: "Whitelist Presale - 1000 Members Only",
+  fourth: "Public Mint – Reveal 24 Hours After Launch",
+  fifth: "Grant Owners Access to “Sherpa Room”",
+  sixth: "Development of AR Game “Yeti Hunt” Post-Mint Marketing Begins ",
+  seventh:
+    "Announce launch plans & private/presale access to ERC-20 “Yeti Token” ",
+  eighth:
+    "Launch Yeti Token & Announce Utility Airdropped tokens for Yeti NFT Owners",
   nineth:
-    "9. Launch Yeti Gold ERC-20 Token, which will help Reward Yeti Hunt game winners. (Free claims will be available for all Yeti Holders)",
-  tenth: "10. Start Building Hype Around Yeti Hunt Game before the Game Launch",
-  eleventh: "11. Launch of Yeti Hunt Game",
-  twelve: "12. Promotions of Yeti Hunt Game at Physical Events",
-  thirteen:
-    "13. Promote it in Developing Countries togain Higher Traffic towards game",
-  fourteenth: "14. Furthermore roadmap will be Updated as soon as possible",
+    "Release Hypefoot & Hypeclops - Mystical Creature Breeds Each YETI owner airdropped 1 Breed Pass. ",
+  tenth: "Prelaunch Event & Marketing for interactive “Yeti Hunt” AR Game   ",
+  eleventh: "Limited Supply Yeti Merch Release Available in Sherpa Room ",
+  twelve: "Launch of Yeti Hunt AR Game",
+  thirteen: "Blue Chip NFT Partnership Announcement (Community Vote)",
+  fourteenth:
+    "First “YETI-Con” - Physical Yeti Hunt & Event Hosted in 4 major cities (Miami, NY, LA and Austin) Prizes awarded in ETH and YETI",
+  fifteenth:
+    "Continuation of Blue Chip NFT Partnerships & Development of Hype YETI Brand",
 };
 
 const Index = () => {
@@ -24,7 +28,7 @@ const Index = () => {
     <section className="py-24" id="roadmap">
       <div className="container">
         <h2 className="text-3xl capitalize text-center font-bold  mb-20">
-          Roadmap
+          THE YETI MAP
         </h2>
         <div className="list-parent mx-auto rounded-full ">
           <div className="list  text-primary">
@@ -69,8 +73,11 @@ const Index = () => {
           <div className="list list-14 text-primary">
             <span>{data.fourteenth}</span>
           </div>
+          <div className="list list-15 text-primary">
+            <span>{data.fifteenth}</span>
+          </div>
         </div>
-        <div className="mobile-list text-primary">
+        <div className="mobile-list text-primary text-center">
           <div className="bg-secondary p-6 my-8 rounded-full">
             <span>{data.first}</span>
           </div>
@@ -112,6 +119,9 @@ const Index = () => {
           </div>
           <div className="bg-secondary p-6 my-8 rounded-full">
             <span>{data.fourteenth}</span>
+          </div>
+          <div className="bg-secondary p-6 my-8 rounded-full">
+            <span>{data.fifteenth}</span>
           </div>
         </div>
       </div>

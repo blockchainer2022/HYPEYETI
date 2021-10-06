@@ -4,17 +4,27 @@ import CardImage2 from "../../assets/images/card2.png";
 import "./style.css";
 const Index = () => {
   return (
-    <section className="py-24 about" id="about">
+    <section className="py-24 about" id="team">
       <div className="container">
-        <h2 className="text-3xl capitalize text-center font-bold">About us</h2>
-        <div className="mt-20 md:flex md:mt-44">
+        <h2 className="text-3xl capitalize text-center font-bold ">
+          Meet the Team
+        </h2>
+        <div className="mt-20 md:flex md:mt-60">
           <div className="md:w-1/2 md:px-8">
-            <CardMobile />
-            <Card />
+            <CardMobile text="Bobby Solez Photo, Bio, Areas of Interest/Expertise" />
+            <Card text="Bobby Solez Photo, Bio, Areas of Interest/Expertise" />
           </div>
           <div className="md:w-1/2 md:px-8">
-            <CardMobile img={CardImage2} title="The Value of Yetins" />
-            <Card img={CardImage2} title="The Value of Yetins" />
+            <CardMobile
+              img={CardImage2}
+              title="AllenOwnz"
+              text="AllenOwnz Photo, Bio, Areas of Interest/Expertise "
+            />
+            <Card
+              img={CardImage2}
+              title="AllenOwnz"
+              text="AllenOwnz Photo, Bio, Areas of Interest/Expertise "
+            />
           </div>
         </div>
       </div>
@@ -43,10 +53,13 @@ const CardMobile = ({
 
 const Card = ({
   img = CardImage1,
-  title = "Yetanomics",
+  title = "Bobby Solez ",
   text = defaultText,
 }) => (
-  <div className="p-5 bg-secondary rounded-xl my-6 hidden lg:block relative">
+  <div
+    className="p-5 pl-12 bg-secondary rounded-xl my-6 hidden lg:block relative "
+    style={{ minHeight: "300px" }}
+  >
     <div className="w-48 xl:w-60 mx-auto mb-6 absolute card-image top">
       <img src={img} alt="" />
     </div>

@@ -17,9 +17,17 @@ const HeroSection = () => {
               <h1 className="font-bold text-3xl mb-6 md:text-5xl md:w-96 md:mx-auto">
                 Welcome to Hypeyetisociety
               </h1>
-              <p className="font-serif text-base capitalize leading-relax md:mt-10 md:w-96 md:mx-auto">
-                There are 10,000 Hypeyetisociety running around! Which one will
-                you get? Sour or sweet? Naughty or nice?
+              <p className="font-serif text-base capitalize leading-relax md:mt-10  md:mx-auto">
+                The legend of the Yeti begins here. In the digital Himalayas
+                hides 8,888 unique, mythical Yeti's, ready to be hunted.
+              </p>
+              <p className="font-serif text-base capitalize leading-relax md:mt-5  md:mx-auto">
+                Contrary to popular belief that Yeti's are dangerous, unfriendly
+                beasts.. the Yeti's in our collection are peaceful, friendly, &
+                loaded with HYPE.
+              </p>
+              <p className="font-serif text-base capitalize leading-relax md:mt-5  md:mx-auto">
+                Are you ready for the hunt?
               </p>
               <div className="flex justify-center items-center   md:w-96 md:mx-auto mt-10">
                 <Button text="Twitter" icon={Twitter} />

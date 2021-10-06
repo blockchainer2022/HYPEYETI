@@ -38,9 +38,11 @@ const Index = () => {
             </div>
             <div className=" items-center hidden lg:flex">
               <ul className="flex items-center">
+                <MenuItem link={"#"} text="Buy a Yeti" />
                 <MenuItem link={"#about"} text="About" />
-                <MenuItem link={"#roadmap"} text="Roadmap" />
-                <MenuItem link={"#arts"} text="Arts" />
+                <MenuItem link={"#team"} text="Team" />
+                <MenuItem link={"#roadmap"} text="Yetimap" />
+                <MenuItem link={"#arts"} text="Members" />
                 <MenuItem link={"#faq"} text="FAQs" />
               </ul>
               <ul className="flex items-center ml-10">
@@ -55,18 +57,28 @@ const Index = () => {
         <div className={`mobile-nav ${open ? "active" : null}`}>
           <ul className="text-center">
             <MobileMenuItem
+              link={"#"}
+              text="Buy a Yeti"
+              handleOpen={handleOpen}
+            />
+            <MobileMenuItem
               link={"#about"}
               text="About"
               handleOpen={handleOpen}
             />
             <MobileMenuItem
+              link={"#team"}
+              text="Team"
+              handleOpen={handleOpen}
+            />
+            <MobileMenuItem
               link={"#roadmap"}
-              text="Roadmap"
+              text="Yetimap"
               handleOpen={handleOpen}
             />
             <MobileMenuItem
               link={"#arts"}
-              text="Arts"
+              text="Members"
               handleOpen={handleOpen}
             />
             <MobileMenuItem link={"#faq"} text="FAQs" handleOpen={handleOpen} />
@@ -81,7 +93,7 @@ export default Index;
 
 const MenuItem = ({ link, text }) => (
   <li className="pl-8 text-md hover:text-primary">
-    <a href={link} className="hover:text-primary">
+    <a href={link} className="hover:text-primary font-bold">
       {text}
     </a>
   </li>
@@ -91,7 +103,9 @@ const MobileMenuItem = ({ link, text, handleOpen }) => (
     className="py-4 mx-auto hover:text-primary cursor-pointer transition"
     onClick={handleOpen}
   >
-    <a href={link}>{text}</a>
+    <a href={link} className="font-bold">
+      {text}
+    </a>
   </li>
 );
 
