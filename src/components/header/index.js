@@ -2,7 +2,7 @@ import { useState } from "react";
 import Timer from "../timer";
 import Logo from "../../assets/images/Logo.png";
 import Hamburger from "../../assets/images/hamburger.svg";
-import Youtube from "../../assets/images/youtube2.svg";
+// import Youtube from "../../assets/images/youtube2.svg";
 import Instagram from "../../assets/images/instagram2.svg";
 import Twitter from "../../assets/images/twitter2.svg";
 import Discord from "../../assets/images/discord2.svg";
