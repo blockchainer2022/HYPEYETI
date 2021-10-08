@@ -21,7 +21,7 @@ const Index = () => {
         <div className="mt-20 md:flex md:mt-10 md:flex-wrap">
           <div className="md:w-1/2  lg:w-1/4 md:px-4">
             <CardMobile
-              text="Interest/Expertise"
+              text="Co-Founder"
               youtube="https://www.youtube.com/c/bobbysolez"
               insta="https://www.instagram.com/bobbysolez/?hl=en"
               twitter="https://twitter.com/BobbySolez"
@@ -30,7 +30,7 @@ const Index = () => {
           </div>
           <div className="md:w-1/2 lg:w-1/4 md:px-2">
             <CardMobile
-              text="Interest/Expertise"
+              text="Co-Founder"
               title="Allen Ownz"
               img={CardImage2}
               youtube="https://www.youtube.com/channel/UCloiKJi1f9ie7kjmOWBpy8Q"
@@ -52,7 +52,7 @@ const Index = () => {
           </div>
           <div className="md:w-1/2 lg:w-1/4 md:px-2">
             <CardMobile
-              text="Adviser"
+              text="Advisor"
               title="Southern Yeti"
               img={CardImage4}
               isTiktok={false}

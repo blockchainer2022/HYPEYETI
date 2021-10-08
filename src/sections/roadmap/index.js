@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 const data = {
   first: "Development of Hype Yeti",
-  second: "Social Community & Brand Buidling  ",
+  second: "Social Community & Brand Building  ",
   third: "Whitelist Presale - 1000 Members Only",
   fourth: "Public Mint – Reveal 24 Hours After Launch",
   fifth: "Grant Owners Access to “Sherpa Room”",
