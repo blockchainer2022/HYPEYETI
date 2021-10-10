@@ -21,20 +21,20 @@ const Index = () => {
             </h2>
             <p className="font-serif font-light mt-8 leading-relaxed">
               The Hype Yeti Society is a community of people with a vision - a
-              collection of creative minds, action-takers, & innovative
+              collection of creative minds, action-takers, and innovative
               individuals.
             </p>
             <p className="font-serif mt-8 leading-relaxed">
-              As it’s foundation, a digital NFT collection exists, comprised of
-              8,888 uniquely designed “Yeti’s” hiding and being hunted on the
-              Ethereum Blockchain as ERC-721 tokens - enabling users to mint,
-              collect, and trade.
+              At its foundation is a digital NFT collection consisting of 8,888
+              uniquely designed “Yetis” hiding and being hunted on the Ethereum
+              Blockchain as ERC-721 tokens. This will enable users to mint,
+              collect, and trade these "l'abominable homme des neiges."
             </p>
             <p className="font-serif mt-8 leading-relaxed">
-              The “Yeti” - otherwise known as the “Abominable Snowman,” is a
+              The “Yeti” - otherwise known as the “Abominable Snowman” is a
               mythical beast said to stalk the Himalayas. It’s physical
               existence has been debated and disputed for many years, along with
-              it’s imaginable appearance.
+              its unimaginable appearance.
             </p>
             <p className="font-serif mt-8 leading-relaxed">
               It has appeared in tales told on both sides of the mountains, in

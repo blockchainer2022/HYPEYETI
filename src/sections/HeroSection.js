@@ -18,13 +18,13 @@ const HeroSection = () => {
                 Welcome to Hypeyetisociety
               </h1>
               <p className="font-serif text-base capitalize leading-relax md:mt-10  md:mx-auto">
-                The legend of the Yeti begins here. In the digital Himalayas
-                hides 8,888 unique, mythical Yeti's, ready to be hunted.
+                The Legend Of The Yeti Begins Here. In The Digital Himalayas
+                Hides 8,888 Unique, Mythical Yetis, Ready To Be Hunted.
               </p>
               <p className="font-serif text-base capitalize leading-relax md:mt-5  md:mx-auto">
-                Contrary to popular belief that Yeti's are dangerous, unfriendly
-                beasts.. the Yeti's in our collection are peaceful, friendly, &
-                loaded with HYPE.
+                Contrary To Popular Belief That Yetis Are Dangerous, Unfriendly
+                Beasts... The Yetis In Our Collection Are Peaceful, Friendly,
+                And Loaded With HYPE.
               </p>
               <p className="font-serif text-base capitalize leading-relax md:mt-5  md:mx-auto">
                 Are you ready for the hunt?
