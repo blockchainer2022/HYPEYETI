@@ -8,9 +8,9 @@ const data = {
   fifth: "Grant Owners Access to “Sherpa Room”",
   sixth: "Development of AR Game “Yeti Hunt” Post-Mint Marketing Begins ",
   seventh:
-    "Announce launch plans & private/presale access to ERC-20 “Yeti Token” ",
+    "Announce launch plans & private/presale access to ERC-20 “Hype Yeti Token” ",
   eighth:
-    "Launch Yeti Token & Announce Utility Airdropped tokens for Yeti NFT Owners",
+    "Launch Hype Yeti Token & Announce Utility Airdropped tokens for Yeti NFT Owners",
   nineth:
     "Release Hypefoot & Hypeclops - Mystical Creature Breeds Each YETI owner airdropped 1 Breed Pass. ",
   tenth: "Prelaunch Event & Marketing for interactive “Yeti Hunt” AR Game   ",
