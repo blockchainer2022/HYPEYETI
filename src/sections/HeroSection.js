@@ -14,7 +14,7 @@ const HeroSection = () => {
           </div>
           <div className="text-center my-8 md:w-1/2">
             <div className="">
-              <h1 className="font-bold text-3xl mb-6 md:text-5xl md:w-96 md:mx-auto">
+              <h1 className="font-bold text-3xl mb-6 md:text-5xl  md:mx-auto">
                 Welcome to Hype Yeti Society
               </h1>
               <p className="font-serif text-base capitalize leading-relax md:mt-10  md:mx-auto">
