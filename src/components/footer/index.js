@@ -14,10 +14,18 @@ const Index = () => {
             Back to top
           </a>
           <div className="flex items-center  justify-center ">
-            <a href="https://discord.gg/hypeyetisociety">
+            <a
+              href="https://discord.gg/hypeyetisociety"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={Discord} alt="" className="w-10" />
             </a>
-            <a href="https://twitter.com/hypeyetisociety?s=21">
+            <a
+              href="https://twitter.com/hypeyetisociety?s=21"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={Twitter} alt="" className="w-10 ml-4 " />
             </a>
           </div>

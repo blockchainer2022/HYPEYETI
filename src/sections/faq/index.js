@@ -104,7 +104,7 @@ const Index = () => {
 export default Index;
 const SocialItem = ({ link, image }) => (
   <li className="pl-8 text-md ">
-    <a href={link}>
+    <a href={link} target="_blank" rel="noreferrer">
       <img src={image} alt="social-icons" className="w-6" />
     </a>
   </li>
