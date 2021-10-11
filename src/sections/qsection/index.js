@@ -16,7 +16,7 @@ const Index = () => {
             </div>
           </div>
           <div className="lg:w-1/2">
-            <h2 className="text-4xl capitalize  font-bold">
+            <h2 className="text-3xl capitalize  font-bold 2xl:text-4xl">
               What is the Hype Yeti Society ?
             </h2>
             <p className="font-serif font-light mt-8 leading-relaxed">

@@ -1,7 +1,9 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from "react";
-
+import Instagram from "../../assets/images/instagram2.svg";
+import Twitter from "../../assets/images/twitter2.svg";
+import Discord from "../../assets/images/discord2.svg";
 const accordianData = [
   {
     question: "how will Hypeyetisociety be launched?",
@@ -73,10 +75,26 @@ const Index = () => {
           ))} */}
           <p>
             Join our Discord & Follow us on Twitter for updates. Please feel
-            free to message us with questions on Discord or Twitter All Hype
+            free to message us with questions on Discord or Twitter. All Hype
             Yeti purchases will be made at
           </p>
-          <a href="https://hypeyetisociety.io">https://hypeyetisociety.io</a>
+          <a href="https://hypeyetisociety.io" className="text-primary">
+            https://hypeyetisociety.io
+          </a>
+          <ul className="flex items-center mt-5 justify-center">
+            <SocialItem
+              link="https://instagram.com/hypeyetisociety?utm_medium=copy_link"
+              image={Instagram}
+            />
+            <SocialItem
+              link="https://discord.gg/hypeyetisociety"
+              image={Discord}
+            />
+            <SocialItem
+              link="https://twitter.com/hypeyetisociety?s=21"
+              image={Twitter}
+            />
+          </ul>
         </div>
       </div>
     </section>
@@ -84,3 +102,10 @@ const Index = () => {
 };
 
 export default Index;
+const SocialItem = ({ link, image }) => (
+  <li className="pl-8 text-md ">
+    <a href={link}>
+      <img src={image} alt="social-icons" className="w-6" />
+    </a>
+  </li>
+);

@@ -4,7 +4,7 @@ import moment from "moment";
 const Index = () => {
   //   const [value, setValue] = useState(0);
 
-  const difference = +new moment("2021-10-30 12:00").utc() - +new Date();
+  const difference = +new moment("2021-10-21 12:00").utc() - +new Date();
 
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
